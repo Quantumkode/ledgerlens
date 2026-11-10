@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <pattern id="rule" width="1584" height="32" patternUnits="userSpaceOnUse"><path d="M0 31.5H1584" stroke="#F6F3EC" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect width="1584" height="396" fill="#0E2F2C"/>
+  <rect width="1584" height="396" fill="url(#rule)"/>
+  <path d="M470 0V396" stroke="#D8482F" stroke-opacity=".45"/>
+  <g transform="translate(510 70)">
+    <g transform="scale(.9)"><rect width="64" height="64" rx="14" fill="#18403C"/><path d="M13 20h24M13 30h14M13 40h20" stroke="#F6F3EC" stroke-width="4" stroke-linecap="round"/><circle cx="40" cy="36" r="11" fill="none" stroke="#C8932F" stroke-width="4"/><path d="M35.5 36.5l3 3 6-6.5" fill="none" stroke="#1F9D6B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M48 44.5l6.5 6.5" stroke="#C8932F" stroke-width="4.5" stroke-linecap="round"/></g>
+    <text x="72" y="42" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="34" fill="#F6F3EC">Ledger<tspan fill="#C8932F">Lens</tspan></text>
+    <text x="0" y="140" font-family="Fraunces, Georgia, serif" font-size="42" fill="#F6F3EC">Turning financial records into</text>
+    <text x="0" y="196" font-family="Fraunces, Georgia, serif" font-size="42" fill="#F6F3EC">clear business decisions.</text>
+    <text x="0" y="250" font-family="'IBM Plex Mono', Consolas, monospace" font-size="17" fill="#F6F3EC" fill-opacity=".6" letter-spacing="2">AI RECONCILIATION · DISCREPANCY DETECTION</text>
+  </g>
+  <g transform="translate(1130 64)" font-family="'Inter Tight', Arial, sans-serif">
+    <rect width="400" height="268" rx="18" fill="#F6F3EC"/>
+    <text x="22" y="36" font-family="'IBM Plex Mono', Consolas, monospace" font-size="12" fill="#0E2F2C" fill-opacity=".55">OPERATING ACCOUNT · OCT</text>
+    <g font-size="15" fill="#0E2F2C">
+      <text x="22" y="80">TRF Kola Distribution</text><rect x="268" y="64" width="110" height="24" rx="12" fill="#1F9D6B" fill-opacity=".15"/><text x="323" y="81" text-anchor="middle" font-size="12" fill="#1F9D6B">Matched</text>
+      <path d="M22 100H378" stroke="#D8D1C0"/>
+      <text x="22" y="132">TRF Brightline Logistics</text><rect x="268" y="116" width="110" height="24" rx="12" fill="#D8482F" fill-opacity=".12"/><text x="323" y="133" text-anchor="middle" font-size="12" fill="#D8482F">Amount differs</text>
+      <path d="M22 152H378" stroke="#D8D1C0"/>
+      <text x="22" y="184">TRF Kola Distribution</text><rect x="268" y="168" width="110" height="24" rx="12" fill="#D8482F" fill-opacity=".12"/><text x="323" y="185" text-anchor="middle" font-size="12" fill="#D8482F">Duplicate</text>
+    </g>
+    <rect x="22" y="210" width="356" height="10" rx="5" fill="#EDE8DC"/><rect x="22" y="210" width="278" height="10" rx="5" fill="#1F9D6B"/>
+    <text x="22" y="246" font-family="'IBM Plex Mono', Consolas, monospace" font-size="12" fill="#0E2F2C" fill-opacity=".6">78% matched · 3 flags to review</text>
+  </g>
+  <text x="1530" y="372" text-anchor="end" font-family="'IBM Plex Mono', Consolas, monospace" font-size="14" fill="#F6F3EC" fill-opacity=".5">ledgerlenss.site</text>
+</svg>
