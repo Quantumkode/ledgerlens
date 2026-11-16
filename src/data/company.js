@@ -1,6 +1,6 @@
 // Single source of truth for every business fact shown on the site, LinkedIn kit and AWS answers.
 export const company = {
-  name: 'LedgerLens',
+  name: 'LedgerLenss',
   domain: 'ledgerlenss.site',
   url: 'https://www.ledgerlenss.site',
   email: 'peace@ledgerlens.site',
@@ -11,7 +11,7 @@ export const company = {
   industry: 'Financial Services',
   founder: { name: 'Peace Lasisi', title: 'Founder' },
   positioning:
-    'LedgerLens is an AI-assisted reconciliation platform for small and mid-sized businesses and the accounting firms that serve them. It reads bank statements, invoices and receipts, matches every transaction to its record, and puts duplicates, missing entries and wrong amounts in front of a reviewer before they reach the books.',
+    'LedgerLenss is an AI-assisted reconciliation platform for small and mid-sized businesses and the accounting firms that serve them. It reads bank statements, invoices and receipts, matches every transaction to its record, and puts duplicates, missing entries and wrong amounts in front of a reviewer before they reach the books.',
 };
 
 export const pricing = [

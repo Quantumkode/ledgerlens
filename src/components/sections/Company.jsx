@@ -5,7 +5,7 @@ import { company, pricing } from '../../data/company.js';
 
 export function Audience() {
   const seg = [
-    [Store, 'SMEs & retail / e-commerce', 'Card, POS and transfer payments arrive in volume and rarely carry the invoice number.', 'Upload the month’s statement and receipts; LedgerLens matches POS and transfer lines to sales and supplier records.', 'Duplicate supplier payments and unposted bank charges are caught before they compound.'],
+    [Store, 'SMEs & retail / e-commerce', 'Card, POS and transfer payments arrive in volume and rarely carry the invoice number.', 'Upload the month’s statement and receipts; LedgerLenss matches POS and transfer lines to sales and supplier records.', 'Duplicate supplier payments and unposted bank charges are caught before they compound.'],
     [Calculator, 'Accounting & bookkeeping firms', 'Each client means another statement, another folder of receipts and another evening of ticking.', 'One workspace per client; reviewers work a single queue of flagged items across all of them.', 'More clients closed per month with the same team, and a decision trail for every adjustment.'],
     [Briefcase, 'Financial consultants', 'Engagements start with messy, incomplete records and a short deadline.', 'Ingest historical statements and documents to surface gaps, duplicates and unusual patterns quickly.', 'Start the engagement with an anomaly report rather than a spreadsheet.'],
     [Building2, 'Finance teams in growing companies', 'Multiple accounts, approvers and payment runs outgrow manual reconciliation.', 'Connect accounting systems through the API and route exceptions to the right approver.', 'Faster month-end close with fewer surprises in audit.'],
@@ -33,7 +33,7 @@ export const awsServices = [
   ['AWS Lambda', 'Runs the matching engine and reconciliation workflows each time new documents or transactions arrive.'],
   ['Amazon DynamoDB', 'Holds transaction records, match results, review decisions and customer configurations.'],
   ['Amazon Bedrock', 'Generates plain-language explanations for flagged anomalies and drafts the period anomaly report.'],
-  ['Amazon API Gateway', 'Exposes secure APIs between the LedgerLens web app, customers and external accounting systems.'],
+  ['Amazon API Gateway', 'Exposes secure APIs between the LedgerLenss web app, customers and external accounting systems.'],
 ];
 
 export function Aws() {
@@ -48,7 +48,7 @@ export function Aws() {
     <section id="aws" className="bg-ink py-24 text-paper">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <SectionHead n="06" kicker="Technology" title="How We Use Amazon Web Services" light>
-          LedgerLens is being built on a serverless AWS architecture: documents land in Amazon S3, Amazon Textract turns them into structured fields, AWS Lambda runs matching and discrepancy checks, Amazon DynamoDB keeps the reconciliation record, and Amazon Bedrock explains what was found — all exposed through Amazon API Gateway.
+          LedgerLenss is being built on a serverless AWS architecture: documents land in Amazon S3, Amazon Textract turns them into structured fields, AWS Lambda runs matching and discrepancy checks, Amazon DynamoDB keeps the reconciliation record, and Amazon Bedrock explains what was found — all exposed through Amazon API Gateway.
         </SectionHead>
         <ol className="mt-14 grid gap-3 md:grid-cols-5">
           {stages.map(([I, t, svc, d], i) => (
@@ -74,7 +74,7 @@ export function EarlyAccess() {
     <section id="access" className="ruled py-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[1fr_1.2fr] lg:px-8">
         <div>
-          <SectionHead n="07" kicker="Early access" title="Help shape LedgerLens before launch.">LedgerLens is in active development. We are working with a small group of businesses and accounting firms to test matching rules against real reconciliation workflows.</SectionHead>
+          <SectionHead n="07" kicker="Early access" title="Help shape LedgerLenss before launch.">LedgerLenss is in active development. We are working with a small group of businesses and accounting firms to test matching rules against real reconciliation workflows.</SectionHead>
           <ul className="mt-8 space-y-3 text-[15px] text-ink/75">
             {['Guided walkthrough of the product with the founding team', 'Input on matching rules, flags and reports for your industry', 'Early-access onboarding when the platform opens'].map((t) => <li key={t} className="flex gap-3"><Check size={18} className="mt-0.5 shrink-0 text-match" />{t}</li>)}
           </ul>
@@ -118,13 +118,13 @@ export function Team() {
   return (
     <section id="team" className="bg-paper-2/60 py-24">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
-        <SectionHead n="09" kicker="Team" title="The Team Behind LedgerLens" />
+        <SectionHead n="09" kicker="Team" title="The Team Behind LedgerLenss" />
         <article className="mt-12 flex max-w-2xl flex-col gap-6 rounded-2xl border border-line bg-white p-8 sm:flex-row" data-reveal>
           <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-2xl bg-ink font-display text-3xl text-ochre" aria-hidden="true">PL</div>
           <div>
             <h3 className="font-display text-2xl">{f.name}</h3>
             <p className="font-mono text-xs uppercase tracking-widest text-ink/55">{f.title}</p>
-            <p className="mt-3 text-[15px] leading-relaxed text-ink/75">Peace founded LedgerLens in 2026 to give small businesses and the accountants who serve them a faster, evidence-backed way to reconcile their records. As founder, Peace leads the company and the development of the LedgerLens platform.</p>
+            <p className="mt-3 text-[15px] leading-relaxed text-ink/75">Peace founded LedgerLenss in 2026 to give small businesses and the accountants who serve them a faster, evidence-backed way to reconcile their records. As founder, Peace leads the company and the development of the LedgerLenss platform.</p>
           </div>
         </article>
       </div>
@@ -139,7 +139,7 @@ export function Contact() {
         <SectionHead n="10" kicker="Contact" title="Talk to the team.">Questions about the product, partnerships or the early-access program.</SectionHead>
         <div className="mt-8 space-y-3">
           <a href={`mailto:${company.email}`} className="flex items-center gap-3 text-[15px] hover:text-match"><Mail size={18} className="text-ochre" />{company.email}</a>
-          <a href={company.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[15px] hover:text-match"><Linkedin size={18} className="text-ochre" />LedgerLens on LinkedIn</a>
+          <a href={company.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[15px] hover:text-match"><Linkedin size={18} className="text-ochre" />LedgerLenss on LinkedIn</a>
         </div>
       </div>
       <div className="rounded-2xl border border-line bg-white p-6 sm:p-8">

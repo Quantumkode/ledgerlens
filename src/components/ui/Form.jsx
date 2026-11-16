@@ -26,7 +26,7 @@ export default function Form({ fields, formName, submitLabel, dark }) {
     if (!validate()) return;
     setState('loading');
     try {
-      await submitForm({ form: formName, ...v, _subject: `LedgerLens · ${formName}` });
+      await submitForm({ form: formName, ...v, _subject: `LedgerLenss · ${formName}` });
       setState('success');
       setV(init);
     } catch (e) {
@@ -40,7 +40,7 @@ export default function Form({ fields, formName, submitLabel, dark }) {
       <div className="rounded-2xl border border-match/30 bg-match/10 p-8 text-center" role="status">
         <CheckCircle2 className="mx-auto text-match" size={32} />
         <p className={`mt-3 font-display text-xl ${dark ? 'text-paper' : ''}`}>Thank you — your message was received.</p>
-        <p className={`mt-1 text-sm ${dark ? 'text-paper/70' : 'text-ink/65'}`}>The LedgerLens team will reply to the email you provided.</p>
+        <p className={`mt-1 text-sm ${dark ? 'text-paper/70' : 'text-ink/65'}`}>The LedgerLenss team will reply to the email you provided.</p>
       </div>
     );
 

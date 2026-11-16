@@ -51,7 +51,7 @@ export default function Hero() {
             Every naira on the statement, <em className="text-match not-italic underline decoration-ochre decoration-4 underline-offset-[10px]">accounted for</em>.
           </h1>
           <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/75">
-            LedgerLens reads your bank statements, invoices and receipts, matches each transaction to its record, and shows you the duplicate payments, missing entries and wrong amounts — with a plain-language reason for each — before month-end close.
+            LedgerLenss reads your bank statements, invoices and receipts, matches each transaction to its record, and shows you the duplicate payments, missing entries and wrong amounts — with a plain-language reason for each — before month-end close.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#access" className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 font-medium text-paper transition hover:bg-ink-2">Request Early Access <ArrowRight size={17} /></a>

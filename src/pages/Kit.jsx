@@ -42,7 +42,7 @@ export default function Kit() {
   return (
     <div className="mx-auto max-w-5xl px-5 py-14 lg:px-8">
       <p className="font-mono text-xs uppercase tracking-widest text-ink/50">Internal · not linked from the site · noindex</p>
-      <h1 className="mt-2 font-display text-4xl">LedgerLens application kit</h1>
+      <h1 className="mt-2 font-display text-4xl">LedgerLenss application kit</h1>
       <p className="mt-3 text-ink/70">Everything needed for the LinkedIn company page and the AWS Activate application, in one place. Every answer derives from the same record the website uses.</p>
       <a href="/ledgerlens-website.zip" download className="mt-5 inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2 text-sm text-paper"><Download size={15} /> Download full project ZIP</a>
       <nav className="mt-6 flex flex-wrap gap-2" aria-label="Kit sections">{nav.map(([h, l]) => <a key={h} href={`#${h}`} className="rounded-full bg-paper-2 px-3 py-1.5 text-sm hover:bg-line">{l}</a>)}</nav>

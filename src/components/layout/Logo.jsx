@@ -15,7 +15,7 @@ export default function Logo({ light = false }) {
     <span className="inline-flex items-center gap-2.5">
       <Mark />
       <span className={`font-display text-xl font-semibold tracking-tight ${light ? 'text-paper' : 'text-ink'}`}>
-        Ledger<span className="text-ochre">Lens</span>
+        Ledger<span className="text-ochre">Lenss</span>
       </span>
     </span>
   );

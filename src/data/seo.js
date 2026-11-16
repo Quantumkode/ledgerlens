@@ -2,14 +2,14 @@ import { company } from './company.js';
 
 export const routesMeta = {
   '/': {
-    title: 'LedgerLens — AI Financial Reconciliation for SMEs and Accounting Firms',
+    title: 'LedgerLenss — AI Financial Reconciliation for SMEs and Accounting Firms',
     description:
-      'LedgerLens matches bank transactions to invoices and receipts, flags duplicate payments, missing entries and incorrect amounts, and explains each anomaly for review. Request early access.',
+      'LedgerLenss matches bank transactions to invoices and receipts, flags duplicate payments, missing entries and incorrect amounts, and explains each anomaly for review. Request early access.',
   },
-  '/privacy': { title: 'Privacy Policy — LedgerLens', description: 'How LedgerLens collects, uses and protects information submitted through ledgerlenss.site.' },
-  '/terms': { title: 'Terms of Service — LedgerLens', description: 'Terms governing use of the LedgerLens website, demo and early-access program.' },
-  '/app': { title: 'Application Kit — LedgerLens', description: 'Internal brand and application kit.', noindex: true },
-  '/404': { title: 'Page not found — LedgerLens', description: 'This page does not exist.', noindex: true },
+  '/privacy': { title: 'Privacy Policy — LedgerLenss', description: 'How LedgerLenss collects, uses and protects information submitted through ledgerlenss.site.' },
+  '/terms': { title: 'Terms of Service — LedgerLenss', description: 'Terms governing use of the LedgerLenss website, demo and early-access program.' },
+  '/app': { title: 'Application Kit — LedgerLenss', description: 'Internal brand and application kit.', noindex: true },
+  '/404': { title: 'Page not found — LedgerLenss', description: 'This page does not exist.', noindex: true },
 };
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');

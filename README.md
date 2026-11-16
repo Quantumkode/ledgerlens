@@ -1,6 +1,6 @@
-# LedgerLens — marketing website
+# LedgerLenss — marketing website
 
-Website for **LedgerLens** (https://www.ledgerlenss.site), an AI-assisted financial reconciliation platform for SMEs and accounting firms. Stage: **building initial product**. The interactive demo runs on fictional sample data in the browser; no AWS services are deployed yet.
+Website for **LedgerLenss** (https://www.ledgerlenss.site), an AI-assisted financial reconciliation platform for SMEs and accounting firms. Stage: **building initial product**. The interactive demo runs on fictional sample data in the browser; no AWS services are deployed yet.
 
 Stack: Vite · React 18 · JavaScript · Tailwind CSS v4 · Lucide icons · React Router (static prerendered).
 
