@@ -35,4 +35,4 @@ Ledgerlenss was founded in 2026 and is currently in development, working with ea
 Financial Reconciliation, Bank Reconciliation, Transaction Matching, Discrepancy Detection, Duplicate Payment Detection, Anomaly Detection, Invoice Processing, Receipt Extraction, Document Intelligence, Accounts Payable Controls, Month-End Close, Bookkeeping Automation, Accounting Software, FinTech, B2B SaaS, Artificial Intelligence, Machine Learning, Financial Operations, Audit Trail, SME Finance
 
 ## Consistency check
-Name, domain, founding year (2026), founder (Peace Lasisi), stage (building), capabilities and AWS wording match the website and AWS Activate answers. Headcount and HQ must be confirmed.
+Name, domain, founding year (2026), founder (Peace Lasisi), stage (building), capabilities and AWS wording match the website and AWS Activate answers.

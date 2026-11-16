@@ -125,6 +125,7 @@ export function Team() {
             <h3 className="font-display text-2xl">{f.name}</h3>
             <p className="font-mono text-xs uppercase tracking-widest text-ink/55">{f.title}</p>
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">Peace founded Ledgerlenss in 2026 to give small businesses and the accountants who serve them a faster, evidence-backed way to reconcile their records. As founder, Peace leads the company and the development of the Ledgerlenss platform.</p>
+            <a href={f.linkedin} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-match"><Linkedin size={16} className="text-ochre" />{f.name} on LinkedIn</a>
           </div>
         </article>
       </div>

@@ -1,7 +1,6 @@
 # Pre-deployment checklist
 
 - [ ] Confirm pricing period (per month) and tier mapping
-- [ ] Add founder LinkedIn URL if wanted (src/data/company.js)
 - [ ] Create a form endpoint (Formspree or API Gateway + Lambda + SES) and set VITE_FORM_ENDPOINT on the host
 - [ ] Submit a test enquiry from the live site and confirm it arrives
 - [ ] Point DNS for www.ledgerlenss.site; enable HTTPS
