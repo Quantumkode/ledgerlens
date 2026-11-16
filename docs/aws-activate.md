@@ -1,7 +1,7 @@
-# AWS Activate answers — LedgerLens
+# AWS Activate answers — LedgerLenss
 
 ## Business details
-- **Company name and website:** LedgerLens — https://www.ledgerlenss.site
+- **Company name and website:** LedgerLenss — https://www.ledgerlenss.site
 - **One-sentence description:** AI-assisted reconciliation platform that matches bank transactions to invoices and receipts and flags duplicates, missing entries and wrong amounts.
 - **Customers:** Businesses — SMEs, accounting/bookkeeping firms, financial consultants, retail/e-commerce, finance teams (FinTech / accounting)
 - **Product stage:** Ideating / building initial product
@@ -32,8 +32,8 @@ Q6. **Current product stage:** Ideating/building initial product
 Q7. **How customers interact with the product:** Web browser, API  
    _Web app is the main interface; API Gateway integration with accounting systems is part of the planned build._
 Q8. **Does your product use AI/ML?:** Yes, we're using AI/ML to improve our products  
-   _AI powers extraction, detection and explanations inside a reconciliation product; LedgerLens is not selling AI models or AI infrastructure._
-Q9. **What are you building? (30–250 chars):** LedgerLens is a financial reconciliation platform that helps SMEs and accounting firms match bank transactions to invoices and receipts and catch errors faster. Built with React on AWS Textract, Bedrock, Lambda and DynamoDB. (224 characters)  
+   _AI powers extraction, detection and explanations inside a reconciliation product; LedgerLenss is not selling AI models or AI infrastructure._
+Q9. **What are you building? (30–250 chars):** LedgerLenss is a financial reconciliation platform that helps SMEs and accounting firms match bank transactions to invoices and receipts and catch errors faster. Built with React on AWS Textract, Bedrock, Lambda and DynamoDB. (225 characters)  
    _Follows the required structure with no unverifiable claims._
 Q10. **Planned product launch date:** March 1, 2027  
    _ASSUMED — no launch date was provided; chosen within the 3–6 month window._
@@ -48,7 +48,6 @@ Q14. **Annual marketing spend:** < $250,000
 
 ## Double-check before submitting
 - Email domain mismatch: email is peace@ledgerlens.site but the website domain is ledgerlenss.site (double “s”). AWS Activate and reviewers usually expect the email to match the website domain. Fix one of them before applying.
-- Business name typed as “Ledgerlenss” in one place and “LedgerLens” elsewhere. The site uses “LedgerLens” everywhere.
 - Pricing ₦5,000 / ₦10,000 / ₦30,000 is shown as per month and mapped to Starter / Growth / Enterprise — confirm billing period and tier mapping.
 - Founder title not provided — shown as “Founder”. No founder LinkedIn URL was provided, so none is linked.
 - Headquarters / country not provided — Nigeria assumed for the AWS form only.

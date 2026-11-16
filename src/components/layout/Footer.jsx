@@ -16,8 +16,8 @@ export default function Footer() {
           <Logo light />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-paper/65">AI-assisted financial reconciliation for small and mid-sized businesses and accounting firms. Match every transaction, catch every discrepancy.</p>
           <div className="mt-5 flex gap-3">
-            <a href={company.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LedgerLens on LinkedIn" className="rounded-full border border-paper/20 p-2 hover:bg-paper/10"><Linkedin size={16} /></a>
-            <a href={`mailto:${company.email}`} aria-label="Email LedgerLens" className="rounded-full border border-paper/20 p-2 hover:bg-paper/10"><Mail size={16} /></a>
+            <a href={company.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LedgerLenss on LinkedIn" className="rounded-full border border-paper/20 p-2 hover:bg-paper/10"><Linkedin size={16} /></a>
+            <a href={`mailto:${company.email}`} aria-label="Email LedgerLenss" className="rounded-full border border-paper/20 p-2 hover:bg-paper/10"><Mail size={16} /></a>
           </div>
         </div>
         {cols.map(([h, links]) => (

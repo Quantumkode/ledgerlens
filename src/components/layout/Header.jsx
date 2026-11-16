@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/80 bg-paper/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
-        <Link to="/" aria-label="LedgerLens home" onClick={() => setOpen(false)}><Logo /></Link>
+        <Link to="/" aria-label="LedgerLenss home" onClick={() => setOpen(false)}><Logo /></Link>
         <nav className="hidden items-center gap-7 text-sm text-ink/75 lg:flex" aria-label="Primary">
           {nav.map(([l, h]) => <a key={h} href={h} className="hover:text-ink">{l}</a>)}
         </nav>
