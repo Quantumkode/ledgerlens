@@ -5,7 +5,7 @@
 - **One-sentence description:** AI-assisted reconciliation platform that matches bank transactions to invoices and receipts and flags duplicates, missing entries and wrong amounts.
 - **Customers:** Businesses — SMEs, accounting/bookkeeping firms, financial consultants, retail/e-commerce, finance teams (FinTech / accounting)
 - **Product stage:** Ideating / building initial product
-- **Launch date:** March 1, 2027 (assumed)
+- **Launch date:** December 20, 2026
 - **How customers use it:** Web browser, API
 - **AI/ML:** Used to improve the product (extraction, detection, explanations)
 - **Funding:** None
@@ -13,7 +13,7 @@
 - **Stack & AWS:** Vite + React + Tailwind front end; Amazon Bedrock, Textract, S3, Lambda, DynamoDB, API Gateway (proposed)
 - **AWS share of infra:** 75–99%
 - **Marketing spend:** < $250,000
-- **Team size & country:** Founder-led (confirm headcount); Nigeria (assumed from naira pricing)
+- **Team size & country:** 1–10 employees; Lagos, Nigeria
 - **6–12 month goals:** Build and launch the MVP, onboard early-access businesses and accounting firms, validate matching accuracy on real records
 
 ## Answers
@@ -35,8 +35,8 @@ Q8. **Does your product use AI/ML?:** Yes, we're using AI/ML to improve our prod
    _AI powers extraction, detection and explanations inside a reconciliation product; Ledgerlenss is not selling AI models or AI infrastructure._
 Q9. **What are you building? (30–250 chars):** Ledgerlenss is a financial reconciliation platform that helps SMEs and accounting firms match bank transactions to invoices and receipts and catch errors faster. Built with React on AWS Textract, Bedrock, Lambda and DynamoDB. (225 characters)  
    _Follows the required structure with no unverifiable claims._
-Q10. **Planned product launch date:** March 1, 2027  
-   _ASSUMED — no launch date was provided; chosen within the 3–6 month window._
+Q10. **Planned product launch date:** December 20, 2026  
+   _Planned MVP launch date confirmed by the founder._
 Q11. **Most recent funding round:** No Funding  
    _No funding was provided in the business details; leave month/year blank._
 Q12. **Latest valuation:** No Valuation  
@@ -48,8 +48,4 @@ Q14. **Annual marketing spend:** < $250,000
 
 ## Double-check before submitting
 - Pricing ₦5,000 / ₦10,000 / ₦30,000 is shown as per month and mapped to Starter / Growth / Enterprise — confirm billing period and tier mapping.
-- Founder title not provided — shown as “Founder”. No founder LinkedIn URL was provided, so none is linked.
-- Headquarters / country not provided — Nigeria assumed for the AWS form only.
-- Launch date (Q10) assumed: March 1, 2027.
-- Company size 2-10 is the LinkedIn default — only one person (founder) was provided. Confirm.
 - Forms need VITE_FORM_ENDPOINT set at build time (e.g. a Formspree URL). Until then they show an error with the email address — they never fake success.

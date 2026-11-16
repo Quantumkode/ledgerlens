@@ -6,10 +6,11 @@ export const company = {
   email: 'peace@ledgerlenss.site',
   tagline: 'Turning Financial Records into Clear Business Decisions.',
   founded: 2026,
+  foundedDate: '2026-03-01',
   stage: 'Ideating/building initial product',
   linkedin: 'https://www.linkedin.com/company/ledgerlenss',
   industry: 'Financial Services',
-  founder: { name: 'Peace Lasisi', title: 'Founder' },
+  founder: { name: 'Peace Lasisi', title: 'Founder & CEO' },
   positioning:
     'Ledgerlenss is an AI-assisted reconciliation platform for small and mid-sized businesses and the accounting firms that serve them. It reads bank statements, invoices and receipts, matches every transaction to its record, and puts duplicates, missing entries and wrong amounts in front of a reviewer before they reach the books.',
 };

@@ -4,9 +4,9 @@
 - **Website:** https://www.ledgerlenss.site
 - **Industry:** Software Development
 - **Company type:** Privately Held
-- **Company size:** 2-10 employees (confirm headcount before publishing)
-- **Founded:** 2026
-- **Headquarters:** Not provided — add city/country once confirmed
+- **Company size:** 1-10 employees
+- **Founded:** March 1, 2026
+- **Headquarters:** Lagos, Nigeria
 - **Public URL:** linkedin.com/company/ledgerlenss
 
 ## Tagline (111/120)
