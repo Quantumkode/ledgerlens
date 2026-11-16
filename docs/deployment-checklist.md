@@ -1,6 +1,5 @@
 # Pre-deployment checklist
 
-- [ ] Resolve email/domain mismatch (peace@ledgerlens.site vs ledgerlenss.site)
 - [ ] Confirm pricing period (per month) and tier mapping
 - [ ] Confirm founder title; add founder LinkedIn URL if wanted (src/data/company.js)
 - [ ] Confirm headcount and headquarters
