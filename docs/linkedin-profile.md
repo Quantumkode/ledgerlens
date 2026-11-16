@@ -6,7 +6,7 @@
 - **Company type:** Privately Held
 - **Company size:** 1-10 employees
 - **Founded:** March 1, 2026
-- **Headquarters:** Lagos, Nigeria
+- **Headquarters:** Lagos, Nigeria 122107
 - **Public URL:** linkedin.com/company/ledgerlenss
 
 ## Tagline (111/120)

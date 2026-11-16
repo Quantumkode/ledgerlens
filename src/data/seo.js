@@ -37,7 +37,7 @@ export function headTags(path) {
     const ld = {
       '@context': 'https://schema.org',
       '@graph': [
-        { '@type': 'Organization', name: company.name, url: company.url, logo: company.url + '/assets/logo.svg', email: company.email, foundingDate: company.foundedDate, founder: { '@type': 'Person', name: company.founder.name, jobTitle: company.founder.title, sameAs: [company.founder.linkedin] }, sameAs: [company.linkedin] },
+        { '@type': 'Organization', name: company.name, url: company.url, logo: company.url + '/assets/logo.svg', email: company.email, address: { '@type': 'PostalAddress', addressLocality: company.address.city, addressRegion: company.address.state, postalCode: company.address.postalCode, addressCountry: company.address.countryCode }, foundingDate: company.foundedDate, founder: { '@type': 'Person', name: company.founder.name, jobTitle: company.founder.title, sameAs: [company.founder.linkedin] }, sameAs: [company.linkedin] },
         { '@type': 'SoftwareApplication', name: company.name, applicationCategory: 'FinanceApplication', operatingSystem: 'Web', description: m.description, publisher: { '@type': 'Organization', name: company.name } },
       ],
     };

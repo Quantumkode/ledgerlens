@@ -1,4 +1,4 @@
-import { Store, Calculator, Briefcase, Building2, Upload, Database, Cpu, Sparkles, MonitorSmartphone, Linkedin, Mail, Check } from 'lucide-react';
+import { Store, Calculator, Briefcase, Building2, Upload, Database, Cpu, Sparkles, MonitorSmartphone, Linkedin, Mail, MapPin, Check } from 'lucide-react';
 import { SectionHead } from './Story.jsx';
 import Form from '../ui/Form.jsx';
 import { company, pricing } from '../../data/company.js';
@@ -141,6 +141,7 @@ export function Contact() {
         <div className="mt-8 space-y-3">
           <a href={`mailto:${company.email}`} className="flex items-center gap-3 text-[15px] hover:text-match"><Mail size={18} className="text-ochre" />{company.email}</a>
           <a href={company.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[15px] hover:text-match"><Linkedin size={18} className="text-ochre" />Ledgerlenss on LinkedIn</a>
+          <p className="flex items-center gap-3 text-[15px]"><MapPin size={18} className="text-ochre" />{company.address.city}, {company.address.country} {company.address.postalCode}</p>
         </div>
       </div>
       <div className="rounded-2xl border border-line bg-white p-6 sm:p-8">

@@ -8,7 +8,7 @@ export const linkedin = {
     ['Company type', 'Privately Held'],
     ['Company size', '1-10 employees'],
     ['Founded', 'March 1, 2026'],
-    ['Headquarters', 'Lagos, Nigeria'],
+    ['Headquarters', 'Lagos, Nigeria 122107'],
     ['Public URL', 'linkedin.com/company/ledgerlenss'],
   ],
   tagline: 'AI reconciliation that matches bank transactions to invoices and receipts and flags discrepancies before close.',
@@ -64,7 +64,7 @@ export const businessDetails = [
   ['Stack & AWS', 'Vite + React + Tailwind front end; Amazon Bedrock, Textract, S3, Lambda, DynamoDB, API Gateway (proposed)'],
   ['AWS share of infra', '75–99%'],
   ['Marketing spend', '< $250,000'],
-  ['Team size & country', '1–10 employees; Lagos, Nigeria'],
+  ['Team size & country', '1–10 employees; Lagos, Nigeria 122107'],
   ['6–12 month goals', 'Build and launch the MVP, onboard early-access businesses and accounting firms, validate matching accuracy on real records'],
 ];
 
