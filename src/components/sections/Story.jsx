@@ -46,7 +46,7 @@ export function Problem() {
           </ul>
         </div>
         <div className="bg-ink p-8 text-paper lg:p-10" data-reveal>
-          <p className="font-mono text-xs uppercase tracking-widest text-ochre">With LedgerLenss</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-ochre">With Ledgerlenss</p>
           <ul className="mt-5 space-y-5 text-paper/80">
             <li><b className="font-semibold text-paper">Upload once.</b> Statements, invoices and receipts go into one workspace; fields are extracted automatically.</li>
             <li><b className="font-semibold text-paper">Matching happens first.</b> Clean matches clear themselves, so people only look at what doesn’t add up.</li>

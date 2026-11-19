@@ -27,10 +27,10 @@ export const weekly = [
 ];
 
 export const activity = [
-  { t: '09:42', who: 'LedgerLenss', what: 'Extracted 31 fields from INV-0419 (Brightline Logistics)' },
-  { t: '09:44', who: 'LedgerLenss', what: 'Flagged TX-10240 as a possible duplicate payment' },
+  { t: '09:42', who: 'Ledgerlenss', what: 'Extracted 31 fields from INV-0419 (Brightline Logistics)' },
+  { t: '09:44', who: 'Ledgerlenss', what: 'Flagged TX-10240 as a possible duplicate payment' },
   { t: '10:05', who: 'Tolu A. (reviewer)', what: 'Disputed TX-10255 — awaiting supplier response' },
-  { t: '10:21', who: 'LedgerLenss', what: 'Matched 12 transactions to receipts batch #18' },
+  { t: '10:21', who: 'Ledgerlenss', what: 'Matched 12 transactions to receipts batch #18' },
   { t: '11:02', who: 'Tolu A. (reviewer)', what: 'Approved bank fee posting for September' },
 ];
 

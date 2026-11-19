@@ -2,14 +2,14 @@ import { company } from './company.js';
 
 export const routesMeta = {
   '/': {
-    title: 'LedgerLenss — AI Financial Reconciliation for SMEs and Accounting Firms',
+    title: 'Ledgerlenss — AI Financial Reconciliation for SMEs and Accounting Firms',
     description:
-      'LedgerLenss matches bank transactions to invoices and receipts, flags duplicate payments, missing entries and incorrect amounts, and explains each anomaly for review. Request early access.',
+      'Ledgerlenss matches bank transactions to invoices and receipts, flags duplicate payments, missing entries and incorrect amounts, and explains each anomaly for review. Request early access.',
   },
-  '/privacy': { title: 'Privacy Policy — LedgerLenss', description: 'How LedgerLenss collects, uses and protects information submitted through ledgerlenss.site.' },
-  '/terms': { title: 'Terms of Service — LedgerLenss', description: 'Terms governing use of the LedgerLenss website, demo and early-access program.' },
-  '/app': { title: 'Application Kit — LedgerLenss', description: 'Internal brand and application kit.', noindex: true },
-  '/404': { title: 'Page not found — LedgerLenss', description: 'This page does not exist.', noindex: true },
+  '/privacy': { title: 'Privacy Policy — Ledgerlenss', description: 'How Ledgerlenss collects, uses and protects information submitted through ledgerlenss.site.' },
+  '/terms': { title: 'Terms of Service — Ledgerlenss', description: 'Terms governing use of the Ledgerlenss website, demo and early-access program.' },
+  '/app': { title: 'Application Kit — Ledgerlenss', description: 'Internal brand and application kit.', noindex: true },
+  '/404': { title: 'Page not found — Ledgerlenss', description: 'This page does not exist.', noindex: true },
 };
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
@@ -37,7 +37,7 @@ export function headTags(path) {
     const ld = {
       '@context': 'https://schema.org',
       '@graph': [
-        { '@type': 'Organization', name: company.name, url: company.url, logo: company.url + '/assets/logo.svg', email: company.email, foundingDate: String(company.founded), founder: { '@type': 'Person', name: company.founder.name }, sameAs: [company.linkedin] },
+        { '@type': 'Organization', name: company.name, url: company.url, logo: company.url + '/assets/logo.svg', email: company.email, address: { '@type': 'PostalAddress', postalCode: company.address.postalCode, addressCountry: company.address.countryCode }, foundingDate: company.foundedDate, founder: { '@type': 'Person', name: company.founder.name, jobTitle: company.founder.title, sameAs: [company.founder.linkedin] }, sameAs: [company.linkedin] },
         { '@type': 'SoftwareApplication', name: company.name, applicationCategory: 'FinanceApplication', operatingSystem: 'Web', description: m.description, publisher: { '@type': 'Organization', name: company.name } },
       ],
     };

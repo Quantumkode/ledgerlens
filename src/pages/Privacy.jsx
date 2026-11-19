@@ -3,7 +3,7 @@ import { LegalPage } from './Legal.jsx';
 export default function Privacy() {
   return (
     <LegalPage title="Privacy Policy" updated="10 November 2026">
-      <p>This policy explains how LedgerLenss (“we”, “us”) handles information collected through ledgerlenss.site, including the early-access and contact forms and the interactive demo. LedgerLenss is currently in development; this policy covers the website. A separate policy will govern the LedgerLenss platform when customers begin uploading financial records.</p>
+      <p>This policy explains how Ledgerlenss (“we”, “us”) handles information collected through ledgerlenss.site, including the early-access and contact forms and the interactive demo. Ledgerlenss is currently in development; this policy covers the website. A separate policy will govern the Ledgerlenss platform when customers begin uploading financial records.</p>
       <h2>Information we collect</h2>
       <ul>
         <li><b>Form submissions:</b> your name, business email, company, company size, primary use case, topic and message.</li>
